@@ -1,6 +1,6 @@
 {
   "name": "@redmunroe/sling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sling inspired by https://github.com/dghubble/sling",
   "main": "dist/index.js",
   "scripts": {
