@@ -1,0 +1,9 @@
+export const HttpMethodGet = 'GET';
+export const HttpMethodPost = 'POST';
+export const HttpMethodPut = 'PUT';
+export const HttpMethodDelete = 'DELETE';
+export const HttpMethodHead = 'HEAD';
+export const HttpMethodOptions = 'OPTIONS';
+export const HttpMethodTrace = 'TRACE';
+export const HttpMethodConnect = 'CONNECT';
+export const HttpMethodPatch = 'PATCH';

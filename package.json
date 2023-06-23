@@ -1,0 +1,21 @@
+{
+  "name": "@redmunroe/sling",
+  "version": "1.0.0",
+  "description": "sling inspired by https://github.com/dghubble/sling",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@redmunroe/net-http": "^1.0.0",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0"
+  }
+}
