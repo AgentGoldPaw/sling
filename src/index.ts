@@ -58,6 +58,14 @@ export default class Sling {
     this.query = new QueryBuilder(options.query);
   }
 
+  header(key: string, value: string): Sling {
+    if (!this.headers) {
+      this.headers = {};
+    }
+    this.headers[key] = value;
+    return this;
+  }
+
   http(): Sling {
     this.scheme = 'http';
     return this;
