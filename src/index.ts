@@ -122,6 +122,11 @@ export default class Sling {
     return this.method(HttpMethodConnect);
   }
 
+  async requestString(): Promise<string> {
+    const response = await this.send();
+    return response.text();
+  }
+
   async request<successType, failureType>(): Promise<
     SuccessFailure<successType, failureType>
   > {
